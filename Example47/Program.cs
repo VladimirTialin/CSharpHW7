@@ -18,7 +18,7 @@ double [,] NumberArray(double [,] numberArray,int numberRandom)
 }
 void PrintArray(double [,] arrayToPrint)
 {
-    Console.Write($"[ ]\t");
+    Console.Write($" \t");
     for (var i = 0; i < arrayToPrint.GetLength(1); i++)
     {
         Console.Write($"[{i}]\t");
